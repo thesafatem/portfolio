@@ -1,0 +1,184 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.block {
+	margin-bottom: 50px;
+	height: 100vh;
+	width: 100vw;
+	left: 0;
+	top: 0;
+	/*overflow: scroll;*/
+	/*position: relative;*/
+}
+
+.main {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 75vw;
+}
+
+.main-text {
+	margin-right: 20px;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.name {
+	font-size: 92px;
+	margin: 5px;
+}
+
+.main-photo {
+	display: flex;
+	flex-direction: row;
+	margin-left: 20px;
+	width: 50%;
+}
+
+.main-photo-img {
+	max-width: 100%;
+	height: auto;
+}
+
+.aboutme {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 75vw;
+}
+
+.aboutme-photo-img {
+	height: auto;
+	width: 250px;
+}
+
+.aboutme-button {
+	background-color: #c83cb9;
+	color: white;
+	height: 50px;
+	width: 150px;
+	border-radius: 15px;
+}
+
+.myskills {
+	display: flex;
+	flex-direction: column;
+	width: 75vw;
+}
+
+.myskills-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.myskills-skills {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.myskills-skills-small {
+	display: flex;
+	flex-direction: column;
+	width: 30vw;
+}
+
+.myskills-skills-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.projects {
+}
+
+.project {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.projects-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.project-image {
+	display: flex;
+	flex-direction: row;
+	width: 50vw;
+}
+
+.project-text {
+	display: flex;
+	flex-direction: column;
+	width: 50vw;
+}
+
+.project-left {
+	justify-content: flex-end;
+	margin-right: 10px;
+}
+
+.project-right {
+	justify-content: flex-start;
+	margin-left: 10px;
+}
+
+.project-text.project-left {
+	align-items: flex-end;
+	justify-content: flex-start;
+}
+
+.project-image-img {
+	max-width: 50%;
+	height: auto;
+}
+
+.blog {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 75%;
+}
+
+.blog-articles {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.article {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 50%;
+}
+
+.article-img {
+	width: 90%;
+	height: auto;
+}
+
+.article-description {
+	width: 90%;
+}
+
+.article-read-more {
+	border-style: none;
+	background-color: white;
+	font-size: 16px;
+	color: magenta;
+}
